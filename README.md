@@ -10,7 +10,7 @@
                 <h1>Olá mundo!</h1> 
             </header>
             <main>
-                <p>este é um site simples com html, css e javascrit. </p>
+                <p> este é um site simples com html, css e javascrit. </p>
                 <button on click=" mostrar alerta()"> clique aqui>/</button>
             </main>
             <script> sru="script. js>" </script>
