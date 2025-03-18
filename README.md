@@ -3,15 +3,15 @@
     <lead>
         <meta charset="UTF-8">
         <meta name="view port" content="widta=device-widt,initial-scale=1,0">
-        <title> Meu site básico </title>
+        <title>Meu site básico</title>
         <head>
             <body>
             <header>
                 <h1>Olá mundo!</h1> 
             </header>
             <main>
-                <p> este é um site simples com html, css e javascrit. </p>
-                <button on click=" mostrar alerta()"> clique aqui>/</button>
+                <p>Este é um site simples com html, css e javascrit.</p>
+                <button on click="mostrar alerta()">clique aqui>/</button>
             </main>
             <script> sru="script. js>" </script>
             </body>
