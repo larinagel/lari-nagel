@@ -1,31 +1,47 @@
-<!Doctype html>
-<html lang="p+-Br">
-    <lead>
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
         <meta charset="UTF-8">
-        <meta name="view port" content="widta=device-widt,initial-scale=1,0">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Meu site básico</title>
-        <head>
-            <body>
-            <header>
-                <h1>Olá mundo!</h1> 
-            </header>
-            <main>
-                <p>Este é um site simples com html, css e javascrit.</p>
-                <button on click="mostrar alerta()">clique aqui>/</button>
-            </main>
-            <script> sru="script. js>" </script>
-            </body>
-            <html>
-                 ex:css 
-                 //styles.css
-                 body S 
-                 font-family: arial, sans-serif
-                 backg rounds-color:#f4f1f4 
-                 text -alingn:center;
-                 mang:sopx;
-                 h1
-                 color:#333
-                 button{} 
-                 padding:10px 20px
-                 font-size:16px,
-                 background-c
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Olá, mundo!</h1>
+        </header>
+        <main>
+            <p>Este é um site simples com HTML, CSS e JavaScript.</p>
+            <button onclick="mostrarAlerta()">Clique aqui</button>
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f1f4;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50; /* Green background for the button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049; /* Darker green when hovering */
+}
+function mostrarAlerta() {
+    alert("Você clicou no botão!");
+}
